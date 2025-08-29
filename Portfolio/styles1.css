@@ -1,0 +1,99 @@
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #333;
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+section {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+#about {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+#about img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+#skills ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.project {
+  background: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.project1 img {
+  max-width: 50%;
+  height: 50%;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+}
+
+.project2 img {
+  max-width: 50%;
+  height: 50%;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+}
+
+a.button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.button.hire-btn {
+  background-color: #e74c3c;
+  color: #fff;
+  margin-top: 12px;
+  font-weight: bold;
+}
+.button.hire-btn:hover {
+  background-color: #ffb3b3;
+  color: #333;
+}
+
+footer {
+  background: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+}
